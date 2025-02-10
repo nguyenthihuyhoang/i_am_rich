@@ -21,8 +21,7 @@ class MyApp extends StatelessWidget {
             /// Hình ảnh toàn màn hình
             SizedBox.expand(
               child: Image.asset(
-                'assets/diamond.jpg',
-                fit: BoxFit.cover, // Phóng to hình ảnh để phủ toàn bộ màn hình
+                'assets/diamond.jpg', //Phóng to hình ảnh để phủ toàn bộ màn hình
               ),
             ),
           ],
