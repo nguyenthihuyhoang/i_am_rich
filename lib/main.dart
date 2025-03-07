@@ -16,12 +16,13 @@ class MyApp extends StatelessWidget {
           title: const Text('I am Rich'),
           backgroundColor: const Color.fromARGB(255, 245, 148, 2),
         ),
-        body: Stack(
+        body: Column(
           children: [
-            /// Hình ảnh toàn màn hình
-            SizedBox.expand(
+            SizedBox(
+              height: 400,
               child: Image.asset(
-                'assets/diamond.jpg', //Phóng to hình ảnh để phủ toàn bộ màn hình
+                'assets/diamond.jpg',
+                fit: BoxFit.contain,
               ),
             ),
           ],
